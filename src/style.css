@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.App {
+    background-color: rgb(231, 255, 235);
+    width: 100%;
+    height: 100vh;
+}
+.todo{
+    background-color: white;
+    border: 1px solid green;
+    width: 450px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.text{
+    font-family: 'Pacifico', cursive;
+}
+.form input{
+    background-color: rgb(231, 255, 235);
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.form button{
+    background-color: green;
+    border: none;
+    padding: 5px 30px;
+    color: white;
+    border-radius: 20px
+}
+.list {
+    padding: 20px 0;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.list  div {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.liste  div:last-child {
+    border-bottom: 0;
+}
+.done{
+    text-decoration: line-through;
+}
+.tick{
+    color: green
+}
+.cleanOne{
+    padding: 10px 20px;
+    border-radius: 20px
+}
+.cleanAll{
+    padding: 10px 20px;
+    border-radius: 20px
+}
+
+  
